@@ -25,7 +25,7 @@ Writes, for every document:
 
 Rendering is deterministic: the same source always yields byte-identical files.
 
-**Verified**: for the 200-document evaluation subset, conditions B and C regenerate byte-for-byte identical to the prompts that were actually sent (400 files, 0 differences). Condition A has no archived sent copy to compare against, but its document body is checked to equal the joined sentence units.
+**Verified**: for the 200-document evaluation subset, conditions B and C regenerate byte-for-byte identical to the released inputs (400 files, 0 differences).
 
 ## 2. Check the inputs (optional)
 
