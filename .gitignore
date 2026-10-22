@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+runs/
+*.log
+
+# Original data restored from the release archives
+/02_data/text_and_annotations_1766.md
+/02_data/review_and_adjudication_1766.md
+/03_model_outputs/*.json
+/02_data/*.md.gz
+/03_model_outputs/model_outputs.zip

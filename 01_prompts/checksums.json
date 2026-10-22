@@ -1,0 +1,81 @@
+{
+  "prompt_files": 9,
+  "main_pipeline_run_hashes_verified": 8,
+  "target_prompt": "Final v7 reference, listed separately; later batches reuse a frozen Target.",
+  "reference_run": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/07_合并与1766篇冻结/Target遗留12_修正_20261007",
+  "scope": "One final set only. Does not imply every historical document was regenerated using this set.",
+  "files": [
+    {
+      "stage": "p0",
+      "file": "01_p0_segmentation_v72.md",
+      "source": "<workspace>/长文本仇恨数据集标注/_定义/提示词/定稿_canonical_20260921/01_P0_语义分块_v72.md",
+      "verification_reference": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/07_合并与1766篇冻结/Target遗留12_修正_20261007/提示词/prompt_p0.md",
+      "sha256": "2509356f4a5e9b5d3e0b753ba3f1141cdcc9ba22734494666e705e1056659210",
+      "run_config_hash_match": true
+    },
+    {
+      "stage": "target",
+      "file": "02_p1_target_v7.md",
+      "source": "<workspace>/长文本仇恨数据集标注/_定义/提示词/定稿_canonical_20260921/02_P1_Target_v7_受害者规则.md",
+      "verification_reference": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/03_Target核对/提示词/P1_v7_受害者规则.md",
+      "sha256": "c8fd33ba261fc38a07c4cf7ba818fa771cf1ae7a5150149a48509deb64b8682f",
+      "run_config_hash_match": null
+    },
+    {
+      "stage": "p2",
+      "file": "03_p2a_extraction_v9.md",
+      "source": "<workspace>/长文本仇恨数据集标注/_定义/提示词/定稿_canonical_20260921/03_P2A_抽取_v9.md",
+      "verification_reference": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/07_合并与1766篇冻结/Target遗留12_修正_20261007/提示词/prompt_p2.md",
+      "sha256": "671b4397730b7dec2c62b8ee3bdd69504bfb7f5950f39ed6a6f4f9dbfdb4089e",
+      "run_config_hash_match": true
+    },
+    {
+      "stage": "boundary",
+      "file": "04_p2b_boundary_check_v3.md",
+      "source": "<workspace>/长文本仇恨数据集标注/_定义/提示词/定稿_canonical_20260921/04_P2B_边界复核_flash_v3.md",
+      "verification_reference": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/07_合并与1766篇冻结/Target遗留12_修正_20261007/提示词/prompt_boundary.md",
+      "sha256": "1c55f23de6e3e309186fa7d8c890ffc560f9eec68019d61871768b2ba4976e9b",
+      "run_config_hash_match": true
+    },
+    {
+      "stage": "summary",
+      "file": "05_p2_summary_rewrite_v1.md",
+      "source": "<workspace>/长文本仇恨数据集标注/_定义/提示词/定稿_canonical_20260921/05_P2_简述重写_flash_v1.md",
+      "verification_reference": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/07_合并与1766篇冻结/Target遗留12_修正_20261007/提示词/prompt_summary.md",
+      "sha256": "0d0d7481bbf6d000ea986442685261df2a8a92248c19d47fc489ae74571f1111",
+      "run_config_hash_match": true
+    },
+    {
+      "stage": "harm",
+      "file": "06_p2c_local_threshold_v1.md",
+      "source": "<workspace>/长文本仇恨数据集标注/_定义/提示词/定稿_canonical_20260921/06_P2C_门槛初判_split_v1.md",
+      "verification_reference": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/07_合并与1766篇冻结/Target遗留12_修正_20261007/提示词/prompt_harm.md",
+      "sha256": "0fae04047b950fed0f2c8c88083e1833e909892fbe456f11d151a84e97b08311",
+      "run_config_hash_match": true
+    },
+    {
+      "stage": "harm_verify",
+      "file": "07_p2d_threshold_verify_v2f.md",
+      "source": "<workspace>/长文本仇恨数据集标注/_定义/提示词/定稿_canonical_20260921/07_P2D_门槛复核_flash_v2f.md",
+      "verification_reference": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/07_合并与1766篇冻结/Target遗留12_修正_20261007/提示词/prompt_harm_verify.md",
+      "sha256": "89827ce362f98364958d643a5ca84182feee88da5921ad22414212f3559cc0d5",
+      "run_config_hash_match": true
+    },
+    {
+      "stage": "p3a",
+      "file": "08_p3a_grouping_relations.md",
+      "source": "<workspace>/长文本仇恨数据集标注/_定义/提示词/定稿_canonical_20260921/08_P3A_归组关系_含输入隔离与主语硬条件.md",
+      "verification_reference": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/07_合并与1766篇冻结/Target遗留12_修正_20261007/提示词/prompt_p3a.md",
+      "sha256": "4426be5787a04fddd8de63aa2128d461ed101e4ad9e938ea788637cec5733a8d",
+      "run_config_hash_match": true
+    },
+    {
+      "stage": "p3b",
+      "file": "09_p3b_source_uptake_terminal.md",
+      "source": "<workspace>/长文本仇恨数据集标注/_定义/提示词/定稿_canonical_20260921/09_P3B_来源承接终态.md",
+      "verification_reference": "<workspace>/数据集/8481到1766_提示词与脚本_20261020/07_合并与1766篇冻结/Target遗留12_修正_20261007/提示词/prompt_p3b.md",
+      "sha256": "5bafa03f931847025701f32dbc35b1aa9023ebc68a8fb8f8ba3ad50f1ad61d29",
+      "run_config_hash_match": true
+    }
+  ]
+}
